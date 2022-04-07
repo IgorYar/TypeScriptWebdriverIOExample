@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "removeComments": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "outDir": "build",
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/mocha-framework",
+      "expect-webdriverio"
+    ]
+  }
+}
